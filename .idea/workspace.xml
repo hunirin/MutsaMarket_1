@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12472a96-7f61-4c76-b01b-d256a36ba1e0" name="Changes" comment="feat: 3일차 미션 구현&#10;- 구매 확정부분 미완">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+    <list default="true" id="12472a96-7f61-4c76-b01b-d256a36ba1e0" name="Changes" comment="feat: 3일차 미션 구현&#10;- 7-d. 미구현">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/451d5f04-3ff0-4663-a923-3daa47cde109.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/451d5f04-3ff0-4663-a923-3daa47cde109.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/miniproject_basic_leegwnaghun/repository/ItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/miniproject_basic_leegwnaghun/repository/ItemRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +44,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;451d5f04-3ff0-4663-a923-3daa47cde109&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -60,6 +57,9 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;542fde2dd72aa5cc356927282abb5c9a&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -86,6 +86,9 @@
       <recent name="com.example.miniproject_basic_leegwnaghun.dto" />
       <recent name="com.example.miniproject_basic_leegwnaghun.repository" />
       <recent name="com.example.miniproject_basic_leegwnaghun.service" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -115,7 +118,14 @@
       <workItem from="1688217766659" duration="257000" />
       <workItem from="1688218081861" duration="61000" />
       <workItem from="1688357244431" duration="14970000" />
-      <workItem from="1688437695949" duration="11164000" />
+      <workItem from="1688437695949" duration="14886000" />
+      <workItem from="1688515417558" duration="41000" />
+      <workItem from="1690331413072" duration="1208000" />
+      <workItem from="1690431427124" duration="1425000" />
+      <workItem from="1690502225640" duration="214000" />
+      <workItem from="1690673260558" duration="1215000" />
+      <workItem from="1690763062879" duration="38000" />
+      <workItem from="1692593741897" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 초기 설정">
       <created>1688014641050</created>
@@ -201,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688454374608</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: 3일차 미션 구현&#10;- 7-d. 미구현">
+      <created>1688455097941</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688455097941</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +247,7 @@
     <MESSAGE value="feat: comment - PUT까지 수정" />
     <MESSAGE value="feat: reply까지 구현&#10;- GET 했을시 writer와 password 숨기기 필요" />
     <MESSAGE value="feat: 3일차 미션 구현&#10;- 구매 확정부분 미완" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 3일차 미션 구현&#10;- 구매 확정부분 미완" />
+    <MESSAGE value="feat: 3일차 미션 구현&#10;- 7-d. 미구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 3일차 미션 구현&#10;- 7-d. 미구현" />
   </component>
 </project>
